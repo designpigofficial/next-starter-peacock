@@ -57,7 +57,7 @@ const Footer = () => (
           target="_blank"
           rel="noreferrer noopener"
         >
-          @vick_onrails
+          Abner Development
         </a>
         . With NextJS, TypeScript Emotion and Vercel.{" "}
         <a

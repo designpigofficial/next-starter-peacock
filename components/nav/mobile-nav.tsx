@@ -10,31 +10,41 @@ const MobileNav = () => {
         <ul className="linkList">
           <li className="listItem">
             <Link href="/">
-              <a className="link">Home</a>
+              <a className="link">Club</a>
             </Link>
           </li>
 
           <li className="listItem">
             <Link href="/works">
-              <a className="link">Works</a>
+              <a className="link">Events</a>
             </Link>
           </li>
 
           <li className="listItem">
             <Link href="/articles">
-              <a className="link">Articles</a>
+              <a className="link">VIP</a>
             </Link>
           </li>
 
           <li className="listItem">
             <Link href="/notes">
-              <a className="link">Notes</a>
+              <a className="link">Bottle Service</a>
             </Link>
           </li>
 
           <li className="listItem">
             <Link href="/about">
-              <a className="link">About</a>
+              <a className="link">Community</a>
+            </Link>
+          </li>
+          <li className="listItem">
+            <Link href="/about">
+              <a className="link">Store</a>
+            </Link>
+          </li>
+          <li className="listItem">
+            <Link href="/about">
+              <a className="link">Contact</a>
             </Link>
           </li>
 
