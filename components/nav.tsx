@@ -34,33 +34,23 @@ const Nav = () => {
             <ul className="navLinkList">
               <li className="navLinkItem">
                 <Link href="/works">
-                  <a>Work</a>
+                  <a>The Club</a>
                 </Link>
               </li>
               <li className="navLinkItem">
                 <Link href="/articles">
-                  <a>Articles</a>
+                  <a>Events</a>
                 </Link>
               </li>
               <li className="navLinkItem">
                 <Link href="/notes">
-                  <a>Notes</a>
+                  <a>Bottle Service</a>
                 </Link>
               </li>
               <li className="navLinkItem">
                 <Link href="/about">
-                  <a>About</a>
+                  <a>Contact</a>
                 </Link>
-              </li>
-
-              <li className="navLinkItem">
-                <a
-                  href={`${SiteConfig.site.siteUrl}/rss.xml`}
-                  target="_blank"
-                  rel="noopener norefferer"
-                >
-                  RSS Feed
-                </a>
               </li>
             </ul>
           </div>
